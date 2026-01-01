@@ -13,7 +13,7 @@ export const SOCIAL_LINKS = {
 };
 
 // Profile Image - Professional photo
-export const PROFILE_IMAGE = "/WhatsApp Image 2025-12-12 at 1.40.24 PM.jpeg";
+export const PROFILE_IMAGE = "/profile-saishree.jpg";
 
 // ============================================
 // EDUCATION DATA
