@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
     "Implemented a RAG-based Q&A system with page-level citations for trustworthy, context-aware responses.",
     "Developed a Streamlit application with chatbot interface and automated MCQ quiz generation."
     ],
-    imageUrl: "https://images.unsplash.com/photo-1712002641088-9d76f9080889?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?auto=format&fit=crop&q=80&w=800",
     link: "https://github.com/saishree2906/",
     liveDemo: "https://Vectorag-saishree.netlify.app"
   },
