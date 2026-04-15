@@ -167,7 +167,7 @@ const App: React.FC = () => {
                 {/* Download CV Button - Primary Solid with Icon Left */}
                 <a
                   href={SOCIAL_LINKS.resume}
-                  download="SAISHREE_Resume.pdf"
+                  download="S SAISHREE.pdf"
                   id="button_download_cv"
                   className="group w-full sm:w-auto flex items-center justify-center gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:opacity-90"
                   style={{

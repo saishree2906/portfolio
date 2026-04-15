@@ -8,7 +8,7 @@ export const SOCIAL_LINKS = {
   github: "https://github.com/saishree2906",
   linkedin: "https://www.linkedin.com/in/saishree-s",
   email: "sairithu33@gmail.com",
-  resume: "/SAISHREE (1) (1).pdf", // Resume download link
+  resume: "/Saishree S.pdf", // Resume download link
   portfolio: "https://saishree-portfolio.netlify.app" // Live portfolio URL
 };
 
@@ -24,7 +24,7 @@ export const EDUCATION_DATA: EducationItem[] = [
     location: "Coimbatore",
     period: "2022 - 2026",
     degree: "B.E Computer Science and Engineering",
-    grade: "CGPA: 8.28"
+    grade: "CGPA: 8.26"
   },
   {
     institution: "AVB Matric Higher Secondary School",
@@ -89,6 +89,8 @@ export const CORE_SKILLS = [
   "Responsive Web Design",
   "RESTful API Integration",
   "UI/UX Design Concepts",
+  "Python",
+  "C",
   "Database Management (SQL & NoSQL)",
   "Version Control (Git)"
 ];
@@ -136,28 +138,31 @@ export const PROJECTS: Project[] = [
     liveDemo: "https://weather-saii.netlify.app/"
   },
   {
-    title: "Responsive Fashion Store",
-    category: "Front End",
-    technologies: "HTML, CSS, JavaScript",
+    title: "VectoRAG – Domain-Specific Tech Guidance",
+    category: "AI-LLM",
+    technologies: "Python, Streamlit, OCR, ChromaDB, NLP, TinyLlama",
     description: [
-      "E-commerce prototype with product catalog, filters, and category navigation.",
-      "Fully responsive layout optimized for seamless UX across all device types."
+      "Engineered an OCR pipeline to extract structured text from scanned academic PDFs.",
+    "Designed a semantic search system using embeddings and ChromaDB for high-accuracy retrieval.",
+    "Implemented a RAG-based Q&A system with page-level citations for trustworthy, context-aware responses.",
+    "Developed a Streamlit application with chatbot interface and automated MCQ quiz generation."
     ],
-    imageUrl: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800",
-    link: "https://github.com/saishree2906/fashion-store",
-    liveDemo: "https://fashion-store-saishree.netlify.app"
+    imageUrl: "https://images.unsplash.com/photo-1712002641088-9d76f9080889?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/saishree2906/",
+    liveDemo: "https://Vectorag-saishree.netlify.app"
   },
   {
-    title: "Dynamic Study Planner",
-    category: "Productivity",
-    technologies: "React, Node.js, MongoDB, Express",
+    title: "Intelligent Overtime Shift Validation(Module)– HRMS",
+    category: "AI / Machine Learning",
+    technologies: "Python, Streamlit, Isolation Forest, Gemini API",
     description: [
-      "Personalized scheduling tool for task management and academic routines.",
-      "Features real-time updates and data persistence to track student progress.",
-      "Intuitive dashboard for organizing study sessions and deadlines."
+      "Engineered an anomaly detection system using Isolation Forest to identify irregular overtime patterns in employee data.",
+    "Developed a Streamlit-based dashboard with heatmap visualizations for intuitive workforce monitoring.",
+    "Integrated Gemini API to provide explainable insights for flagged overtime violations.",
+    "Delivered as part of a remote internship to enhance HR analytics and decision-making processes."
     ],
-    imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800",
-    link: "https://github.com/saishree2906/study-planner",
-    liveDemo: "https://study-planner-saishree.netlify.app"
+    imageUrl: "https://images.unsplash.com/photo-1661310112344-e1f708f5ad3c?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/saishree2906/intelligent-overtime-validation",
+    liveDemo: "https://intelligent-overtime-validation-saishree.netlify.app"
   }
 ];
